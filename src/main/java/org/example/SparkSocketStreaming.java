@@ -9,9 +9,8 @@ import org.apache.spark.streaming.api.java.JavaStreamingContext;
 import scala.Tuple2;
 
 import java.util.Arrays;
-import java.util.List;
 
-public class Main {
+public class SparkSocketStreaming {
     public static void main(String[] args) {
         SparkConf Scon = new SparkConf()
                 .setMaster("local[*]")
